@@ -1,0 +1,66 @@
+{
+  "_banner": "FULLY SYNTHETIC DATA. All drugs, conditions, trials, and clinical facts below are FICTIONAL and invented for this demo. Nothing here is real medical information and must never be used for any clinical purpose.",
+  "domain": "Sovereign biopharma knowledge retrieval (fictional)",
+  "documents": [
+    {
+      "id": "doc-001",
+      "title": "Veltrexan — Mechanism of Action",
+      "text": "Veltrexan is a fictional selective MAPT-tau aggregation inhibitor developed for early-stage Corvell's syndrome. It binds the fictional GR-7 conformational pocket, reducing paired-helical filament formation. Standard induction dosing is 40mg once daily for 14 days, followed by a 20mg maintenance dose. Veltrexan is contraindicated in patients with hepatic Stage III impairment due to accumulation via the fictional CYP-9X pathway."
+    },
+    {
+      "id": "doc-002",
+      "title": "Veltrexan — Dose Adjustment in Renal Impairment",
+      "text": "For patients with reduced renal clearance, Veltrexan maintenance should be lowered from 20mg to 10mg daily once estimated clearance falls below 45 units on the fictional Marsten scale. No induction adjustment is required. Co-administration with the fictional diuretic Solanide increases plasma concentration by approximately 30 percent and warrants monitoring."
+    },
+    {
+      "id": "doc-003",
+      "title": "Corvell's Syndrome — Diagnostic Criteria",
+      "text": "Corvell's syndrome (fictional) is diagnosed using the three-tier Adessi criteria: tier one requires elevated fictional serum biomarker NRP-2 above 8.0, tier two requires confirmatory imaging showing bilateral fictional thalamic banding, and tier three requires symptom persistence beyond 90 days. A diagnosis requires at least two of three tiers. Early-stage disease is defined as NRP-2 between 8.0 and 14.0."
+    },
+    {
+      "id": "doc-004",
+      "title": "Trial MERIDIAN-2 — Primary Endpoints",
+      "text": "The fictional MERIDIAN-2 trial evaluated Veltrexan against placebo across 612 enrolled participants. The primary endpoint was reduction in NRP-2 biomarker at 24 weeks. Veltrexan achieved a mean reduction of 4.2 points versus 0.9 for placebo. The trial used a fictional double-masked crossover design and was conducted under sovereign data-residency rules with no patient data leaving the host institution."
+    },
+    {
+      "id": "doc-005",
+      "title": "Trial MERIDIAN-2 — Adverse Events",
+      "text": "In the fictional MERIDIAN-2 trial, the most common adverse event was transient Marsten-scale elevation, observed in 11 percent of the Veltrexan arm. Serious adverse events were rare. Two participants discontinued due to fictional hepatic enzyme elevation. No deaths were attributed to the study drug. Adverse event reporting followed the fictional Sovereign Pharmacovigilance Standard v3."
+    },
+    {
+      "id": "doc-006",
+      "title": "Solanide — Drug Interactions",
+      "text": "Solanide is a fictional loop diuretic. When co-administered with Veltrexan, it increases Veltrexan plasma concentration by roughly 30 percent through fictional CYP-9X competition. Solanide also interacts with the fictional anticoagulant Brennadel, prolonging clotting time. Patients on triple therapy require weekly monitoring under the fictional Adessi protocol."
+    },
+    {
+      "id": "doc-007",
+      "title": "Brennadel — Monitoring Requirements",
+      "text": "Brennadel is a fictional direct factor inhibitor anticoagulant. Routine monitoring uses the fictional Velos clotting index, targeting a range of 2.0 to 3.0. Brennadel is renally cleared and requires dose reduction below 30 units on the Marsten scale. It is contraindicated alongside Solanide in patients over a fictional frailty index of 6."
+    },
+    {
+      "id": "doc-008",
+      "title": "Sovereign Data Residency Policy — Clinical Deployments",
+      "text": "Under the fictional Sovereign Clinical AI Directive, all patient-derived data used by deployed retrieval systems must remain within the host institution's physical infrastructure. Models may not transmit queries, embeddings, or documents to external endpoints. Any model improvement must occur locally. Audit logs of all automated configuration changes must be retained for seven years."
+    },
+    {
+      "id": "doc-009",
+      "title": "Corvell's Syndrome — Staging and Progression",
+      "text": "Corvell's syndrome (fictional) progresses through four stages. Early stage is defined by NRP-2 between 8.0 and 14.0 with preserved function. Intermediate stage shows NRP-2 between 14.0 and 22.0. Advanced stage exceeds 22.0 with fictional thalamic atrophy. Terminal stage involves loss of the fictional Adessi reflex. Veltrexan is only indicated for early and intermediate stages."
+    },
+    {
+      "id": "doc-010",
+      "title": "Veltrexan — Pediatric and Geriatric Use",
+      "text": "Veltrexan (fictional) is not approved for patients under a fictional developmental index of 12. In geriatric patients above a fictional age-frailty score of 7, induction dosing should begin at 20mg rather than 40mg. The fictional MERIDIAN-2 trial enrolled no pediatric participants, so pediatric efficacy data does not exist."
+    },
+    {
+      "id": "doc-011",
+      "title": "NRP-2 Biomarker — Assay Methodology",
+      "text": "The fictional NRP-2 serum biomarker is measured using the fictional Adessi immunoassay. Samples must be processed within 6 hours. Values above 8.0 are considered elevated. The assay has a fictional coefficient of variation under 5 percent. NRP-2 is the primary monitoring biomarker for Corvell's syndrome and the primary endpoint of MERIDIAN-2."
+    },
+    {
+      "id": "doc-012",
+      "title": "Sovereign Pharmacovigilance Standard v3 — Reporting Windows",
+      "text": "Under the fictional Sovereign Pharmacovigilance Standard v3, serious adverse events must be reported within 24 hours to the host institution's internal safety board. Non-serious events are reported within 14 days. All reporting remains within the sovereign boundary. The standard explicitly forbids transmission of identifiable patient data to drug manufacturers without local de-identification."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "_note": "Eval cases for the sovereign RAG ratchet loop. 'visible' cases are what the mutation loop is allowed to optimize against. 'heldout' cases are NEVER seen during optimization — they exist to catch Goodharting (visible score rises while held-out score falls).",
+  "visible": [
+    {
+      "id": "v1",
+      "question": "What is the standard induction dose of Veltrexan?",
+      "relevant_doc_ids": ["doc-001"],
+      "answer_substring": "40mg once daily for 14 days"
+    },
+    {
+      "id": "v2",
+      "question": "How should Veltrexan be adjusted in renal impairment?",
+      "relevant_doc_ids": ["doc-002"],
+      "answer_substring": "10mg daily"
+    },
+    {
+      "id": "v3",
+      "question": "What were the primary endpoint results of the MERIDIAN-2 trial?",
+      "relevant_doc_ids": ["doc-004"],
+      "answer_substring": "4.2 points"
+    },
+    {
+      "id": "v4",
+      "question": "What is the most common adverse event with Veltrexan?",
+      "relevant_doc_ids": ["doc-005"],
+      "answer_substring": "Marsten-scale elevation"
+    },
+    {
+      "id": "v5",
+      "question": "How is Corvell's syndrome diagnosed?",
+      "relevant_doc_ids": ["doc-003"],
+      "answer_substring": "Adessi criteria"
+    },
+    {
+      "id": "v6",
+      "question": "What happens when Solanide is co-administered with Veltrexan?",
+      "relevant_doc_ids": ["doc-006", "doc-002"],
+      "answer_substring": "30 percent"
+    },
+    {
+      "id": "v7",
+      "question": "What are the data residency rules for clinical deployments?",
+      "relevant_doc_ids": ["doc-008"],
+      "answer_substring": "remain within the host institution"
+    },
+    {
+      "id": "v8",
+      "question": "Which stages of Corvell's syndrome is Veltrexan indicated for?",
+      "relevant_doc_ids": ["doc-009"],
+      "answer_substring": "early and intermediate"
+    },
+    {
+      "id": "v9",
+      "question": "How is the NRP-2 biomarker measured?",
+      "relevant_doc_ids": ["doc-011"],
+      "answer_substring": "Adessi immunoassay"
+    },
+    {
+      "id": "v10",
+      "question": "What is the reporting window for serious adverse events?",
+      "relevant_doc_ids": ["doc-012"],
+      "answer_substring": "24 hours"
+    }
+  ],
+  "heldout": [
+    {
+      "id": "h1",
+      "question": "What monitoring is required for a patient taking Brennadel?",
+      "relevant_doc_ids": ["doc-007"],
+      "answer_substring": "Velos clotting index"
+    },
+    {
+      "id": "h2",
+      "question": "How should Veltrexan induction be changed for elderly patients?",
+      "relevant_doc_ids": ["doc-010"],
+      "answer_substring": "20mg rather than 40mg"
+    },
+    {
+      "id": "h3",
+      "question": "What defines the advanced stage of Corvell's syndrome?",
+      "relevant_doc_ids": ["doc-009"],
+      "answer_substring": "exceeds 22.0"
+    },
+    {
+      "id": "h4",
+      "question": "What are the contraindications for Brennadel with Solanide?",
+      "relevant_doc_ids": ["doc-007", "doc-006"],
+      "answer_substring": "frailty index"
+    },
+    {
+      "id": "h5",
+      "question": "Is there pediatric efficacy data for Veltrexan?",
+      "relevant_doc_ids": ["doc-010"],
+      "answer_substring": "no pediatric"
+    },
+    {
+      "id": "h6",
+      "question": "What is the contraindication for Veltrexan related to the liver?",
+      "relevant_doc_ids": ["doc-001"],
+      "answer_substring": "hepatic Stage III"
+    }
+  ]
+}
